@@ -27,7 +27,7 @@ export default function CheckoutPage({ onNavigate }: CheckoutPageProps) {
     shipping_address: '',
     city: '',
     postal_code: '',
-    country: 'France',
+    country: 'MAROC',
   });
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);

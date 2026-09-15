@@ -33,7 +33,7 @@ export default function HomePage({ onNavigate, onAddToCart }: HomePageProps) {
   }, []);
 
   const features = [
-    { icon: Truck, title: 'Livraison 48h', desc: 'Partout en France' },
+    { icon: Truck, title: 'Livraison 48h', desc: 'Partout en Maroc' },
     { icon: ShieldCheck, title: 'Paiement Sécurisé', desc: 'Transactions protégées' },
     { icon: RefreshCw, title: 'Retours 30 jours', desc: 'Satisfait ou remboursé' },
     { icon: Headphones, title: 'Support 7j/7', desc: 'Une équipe à votre écoute' },
@@ -55,7 +55,7 @@ export default function HomePage({ onNavigate, onAddToCart }: HomePageProps) {
           <div className="max-w-2xl">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-amber-500/20 border border-amber-500/30 rounded-full mb-6">
               <Star className="w-4 h-4 text-amber-400 fill-amber-400" />
-              <span className="text-sm font-medium text-amber-200">N°1 de l'éclairage en France</span>
+              <span className="text-sm font-medium text-amber-200">N°1 de l'éclairage en Maroc</span>
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
               Illuminez votre monde avec{' '}

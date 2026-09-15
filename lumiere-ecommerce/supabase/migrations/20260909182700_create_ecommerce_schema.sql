@@ -43,7 +43,7 @@ and place orders without creating accounts.
 - `shipping_address` (text, not null)
 - `city` (text, not null)
 - `postal_code` (text, not null)
-- `country` (text, not null, default 'France')
+- `country` (text, not null, default 'Maroc')
 - `total` (numeric, not null) — order total
 - `status` (text, default 'pending') — pending, confirmed, shipped, delivered
 - `created_at` (timestamp)
@@ -115,7 +115,7 @@ CREATE TABLE IF NOT EXISTS orders (
   shipping_address text NOT NULL,
   city text NOT NULL,
   postal_code text NOT NULL,
-  country text NOT NULL DEFAULT 'France',
+  country text NOT NULL DEFAULT 'Maroc',
   total numeric(10,2) NOT NULL,
   status text NOT NULL DEFAULT 'pending',
   created_at timestamp with time zone DEFAULT now()

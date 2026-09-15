@@ -85,15 +85,15 @@ export default function Footer({ onNavigate }: FooterProps) {
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
-                <span className="text-sm text-gray-400">42 Rue de la Lumière, 75011 Paris</span>
+                <span className="text-sm text-gray-400">drissiya 2 , nakhil</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-amber-400 shrink-0" />
-                <span className="text-sm text-gray-400">01 23 45 67 89</span>
+                <span className="text-sm text-gray-400">00 00 00 00 00</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-amber-400 shrink-0" />
-                <span className="text-sm text-gray-400">contact@lumiere.fr</span>
+                <span className="text-sm text-gray-400">imrane@gmail.com</span>
               </li>
             </ul>
           </div>
